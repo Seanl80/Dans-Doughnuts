@@ -133,58 +133,12 @@ li a:hover {
     }
 }
 
-@media (max-width: 400) {
-    .checkbtn {
-        display: block;
-    }
-
-    nav ul {
-        position: fixed;
-        width: 100%;
-        height: 40vh;
-        background: #e6e6e6;
-        top: 50px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-
-    nav ul li {
-        display: block;
-        margin-right: 50px 0;
-        line-height: 50px;
-    }
-
-    nav ul li a {
-        color: #777777;
-        font-size: 16px;
-    }
-
-    a:hover,
-    a:active {
-        background-color: #777777;
-        color: #e6e6e6;
-        border-radius: 5px;
-        transition: .5s;
-    }
-
-    #check:checked~ul {
-        left: 0;
-    }
+@media (max-width: 400px) {
 
     .logo {
-        font-size: 4px;
-    }
-
-    footer ul li a {
-        text-align: center;
-        display: flex;
-    }
-
-    .copyright {
-        font-size: 8px;
-        text-align: center;
-        display: flex;
+        font-size: 16px;
+        margin-right: 5px;
+        padding: 0;
     }
 }
 
@@ -192,7 +146,7 @@ li a:hover {
 #hero-donut {
     height: 600px;
     width: 100%;
-    background: url("../images/donut-hero.jpg") no-repeat center;
+    background: url("../images/donut-hero.jpg") no-repeat center center;
     margin-bottom: 0px;
     z-index: 1;
 
@@ -292,7 +246,7 @@ li a:hover {
 
 
 .loca-text,
-.cont-text,
+.flav-text,
 .join-text,
 .balloon-text {
     text-align: center;
@@ -311,6 +265,7 @@ li a:hover {
     width: 100%;
     height: auto;
     box-shadow: 10px 10px 30px #777777;
+    background-size: fill;
 }
 
 h1 {
@@ -416,32 +371,28 @@ button:hover {
 
 /* contact form, w3schools */
 
-.loc-1 {
-    display: grid;
-    float: left;
-    width: 50%;
-    height: 400px;
+.loc {
+    display: inline-block;
     text-align: center;
-    margin-top: 40px;
+    width: 33%;
+    height: 200px;
+    margin-top: 20px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
-.loc-2 {
-    display: grid;
-    float: right;
-    width: 50%;
-    height: 400px;
-    text-align: center;
-    margin-top: 40px;
-    padding: 10px;
-    font-size: 16px;
+@media (max-width: 850px) {
+    .loc {
+        width: 100%;
+    }
 }
 
 h2 {
     font-size: 32px;
-    font-weight: bold;
-    text-shadow: 2px 2px 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px;
+    text-decoration: dotted underline;
 }
 
 h3 {
@@ -457,6 +408,7 @@ h3 {
     color: #777777;
     margin-top: 40px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .review1 {
@@ -467,7 +419,7 @@ h3 {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .review2 {
@@ -478,7 +430,7 @@ h3 {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .review3 {
@@ -489,7 +441,7 @@ h3 {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .checked {
@@ -515,23 +467,8 @@ article {
     }
 }
 
-@media (max-width: 450px) {
-
-    label a.logo {
-        font-size: 18px;
-        margin-left: 10px;
-    }
-
-    .copyright {
-        font-size: 12px;
-        margin-left: 10px;
-    }
-
-    footer ul li a {
-        padding: 1px 1px;
-    }
-
-    footer ul {
-        margin-right: 10px;
-    }
+#phone {
+    font-size: larger;
+    font-weight: bolder;
+    color: #ff0000
 }
