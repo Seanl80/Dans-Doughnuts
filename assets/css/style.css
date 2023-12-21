@@ -9,11 +9,12 @@
 }
 
 body {
-    font-family: Nunito sans;
+    font-family: "Nunito sans";
     color: #777777;
     background: #e6e6e6;
 }
 
+/* code based on CodingNepal */
 nav {
     position: fixed;
     margin-top: 0px;
@@ -111,7 +112,7 @@ li a:hover {
 
     nav ul li {
         display: block;
-        margin-right: 50px 0;
+        margin-right: 50px;
         line-height: 50px;
     }
 
@@ -142,6 +143,7 @@ li a:hover {
     }
 }
 
+/* code based on CodingNepal */
 /* code institute based */
 #hero-donut {
     height: 600px;
@@ -182,10 +184,10 @@ li a:hover {
     transform: translate(-50%, -50%);
     font-size: 30px;
     color: #e6e6e6;
-    padding: 20px 0;
+    padding: 20px 20px;
     z-index: 3;
     text-shadow: 2px 2px 2px red;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
 }
 
@@ -265,7 +267,7 @@ li a:hover {
     width: 100%;
     height: auto;
     box-shadow: 10px 10px 30px #777777;
-    background-size: fill;
+
 }
 
 h1 {
@@ -444,12 +446,14 @@ h3 {
     font-size: 20px;
 }
 
+/* w3schools */
 .checked {
     display: inline;
     align-content: center;
     color: rgb(255, 196, 0);
-
 }
+
+/* w3schools */
 
 article {
     text-align: center;
@@ -467,7 +471,7 @@ article {
     }
 }
 
-#phone {
+.phone {
     font-size: larger;
     font-weight: bolder;
     color: #ff0000
