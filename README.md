@@ -82,7 +82,7 @@ As a business owner, I want:
 ### Design choices
 
 - For my design choices I will try to capture the colours of the sprinkles on the doughnuts and use them within the website.
--  There are lots of colours from the doughnuts and I wanted to keep it that way as then they stand out more.
+-  There are lots of colours from the images of the doughnuts and I wanted to keep it that way as then they stand out more.
 - For the background I have chosen an off white which will help the text colour to blend in with the rest of the website. 
 - The text color I will keep neutral as much as I can again just to emphasise the doughnut pictures.
 - I will keep the website clean and not too cluttered as well as
@@ -151,6 +151,7 @@ As the owner of Dans Doughnuts, I want:
 
    - Fixed nav bar allows users easy access to all information.
    - Name is clearly displayed.
+   - Navigation paths seem logical and flowing.
 
 2. For customers to know where we are and how to order.
 
@@ -174,6 +175,7 @@ As a customer of any age, I want:
 2. To be able to clearly see how to navigate through the website.
 
    - The navigation bar is prominent and can be seen.
+   - Natural flow and order to site.
    - There are call to action buttons which will take you on the same navigational path.
 
 3. To have visible buttons to push to where I want to go.
@@ -183,6 +185,7 @@ As a customer of any age, I want:
 4. Feedback from the website when I'm navigating i.e. hovering over buttons.
 
    - All links whether buttons, nav bar or logo will change when hovering the mouse pointer over.
+   - The form has a customised thank you page as well.
 
 5. To be able to know all the flavours and see what they look like.
 
@@ -191,15 +194,29 @@ As a customer of any age, I want:
 6. To be able to know where the shops are.
 
    - The locations page has been created and shows each shops location, city and postcode.
+   - This can be accessed in one click from the main call to action button on the home page.
 
 7. To know how to order and which telephone number to phone.
 
    - On the main page there is a call to action button which links to the locations page for the phone number.
+   - Instructions say who can order and how in stand out text.
 
 8. To be able to benefit from discounts.
    - On the main page further down we advertise this with a call to action button.
 
 ---
+## Bugs
+
+The first bugs I encountered was when I started to test my code. This is what they were and the solutions:
+
+1. My hero-text was going out of position when the screen size reduced.
+   - It took a while but I noticed I didn't include it in my `<div>` like my other images with text.
+2. My navigation links were wrong on the locations page.
+   - When I replaced the contact.html page with the flavours.html page I forgot to change it. It was spotted through testing.
+3. It was highlighted that I could submit the form without typing in any text.
+   - I had put in `required` but as my form was not active and the button was wrapped in an `<a>` anchor tag it was going straight through.
+   - The solution was the `<form action="">` which in hindsight should of been the
+    way I did it in the first place.
 
 ## Deployment
 
