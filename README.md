@@ -82,8 +82,8 @@ As a business owner, I want:
 ### Design choices
 
 - For my design choices I will try to capture the colours of the sprinkles on the doughnuts and use them within the website.
--  There are lots of colours from the images of the doughnuts and I wanted to keep it that way as then they stand out more.
-- For the background I have chosen an off white which will help the text colour to blend in with the rest of the website. 
+- There are lots of colours from the images of the doughnuts and I wanted to keep it that way as then they stand out more.
+- For the background I have chosen an off white which will help the text colour to blend in with the rest of the website.
 - The text color I will keep neutral as much as I can again just to emphasise the doughnut pictures.
 - I will keep the website clean and not too cluttered as well as
   have similar theme and layout so away from the main page customers will find it easy to navigate with the natural order/flow of the website quite clear.
@@ -205,6 +205,7 @@ As a customer of any age, I want:
    - On the main page further down we advertise this with a call to action button.
 
 ---
+
 ## Bugs
 
 The first bugs I encountered was when I started to test my code. This is what they were and the solutions:
@@ -216,7 +217,7 @@ The first bugs I encountered was when I started to test my code. This is what th
 3. It was highlighted that I could submit the form without typing in any text.
    - I had put in `required` but as my form was not active and the button was wrapped in an `<a>` anchor tag it was going straight through.
    - The solution was the `<form action="">` which in hindsight should of been the
-    way I did it in the first place.
+     way I did it in the first place.
 
 ## Deployment
 
@@ -266,3 +267,4 @@ These are highlighted in my code.
 
 - For my images I used the AI on [Canva](https://www.canva.com/) to create them.
 - For my check box and social media links I used [font awesome](https://fontawesome.com/).
+- For my favicon image I used [favicon.ico Generator](https://www.favicon.cc/)
