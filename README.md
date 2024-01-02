@@ -100,11 +100,11 @@ As a business owner, I want:
 Here are the original wireframes:
 
 ![Home page wireframe](assets/images/HomeWF.jpg)
-![Location page wireframe](assets/images/LocWF.jpg)
+![Location page wireframe](assets/images/LocationWF.jpg)
 ![Join page wireframe](assets/images/JoinWF.jpg)
 ![Contact page wireframe](assets/images/ContactWF.jpg)
-![Smaller screen 1 wireframe](assets/images/smallerscreenWF1.jpg)
-![Smaller screen 2 wireframe](assets/images/smallerscreenWF2.jpg)
+![Smaller screen 1 wireframe](assets/images/smallerScreenWF1.jpg)
+![Smaller screen 2 wireframe](assets/images/smallerScreenWF2.jpg)
 
 ---
 
