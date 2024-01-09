@@ -83,10 +83,15 @@ Here are the original wireframes:
 
 ### Existing features
 
+Sign up form for an email newsletter.
 ![Sign up form for an email newsletter.](assets/images/screenshot-form.png)
+Quick links to store locations and phone numbers.
 ![Quick links to store locations and phone numbers.](assets/images/screenshot-location-link.png)
+[Pictures of flavours available.
 ![Pictures of flavours available.](assets/images/screenshot-flavoursA.png)
+More flavours.
 ![More flavours](assets/images/screenshot-flavoursB.png)
+Links to social media.
 ![Links to social media.](assets/images/screenshot-social-links.png)
 ![Responsive website in all screen sizes.]()
 
@@ -226,8 +231,6 @@ These are the sources I used for my code.
 - For the responsive nav bar links dropping into a drop down menu when the screen is shrunk I used this [YouTube video from CodingNepal](https://youtu.be/oLgtucwjVII?si=1y1oYOFR4jmPwpTe).
 - For the sign up form I used code from [W3schools](https://www.w3schools.com/howto/howto_css_signup_form.asp) and customized it.
 - For the hero image style I took inspiration from from the Love Running section from [CodeInstitute](https://codeinstitute.net). I also used Code Institute for the deployment section of this readme and the structure.
-
-These are highlighted in my code.
 
 ### Media
 
