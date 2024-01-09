@@ -1,32 +1,3 @@
-# Table of Contents
-
-1. UX
-
-   - Project goals
-   - Business goals
-   - Customer goals
-   - Developer goals
-   - User stories
-   - Design choices
-   - Wireframes
-
-2. Features
-
-   - Existing features
-   - Future features
-
-3. Technologies used
-
-4. Testing
-
-5. Deployment
-
-   - How to run this project locally.
-
-6. Credits
-
----
-
 ## UX
 
 ### Project goals
@@ -99,12 +70,12 @@ As a business owner, I want:
 
 Here are the original wireframes:
 
-![Home page wireframe](assets/images/HomeWF.jpg)
-![Location page wireframe](assets/images/LocationWF.jpg)
-![Join page wireframe](assets/images/JoinWF.jpg)
-![Contact page wireframe](assets/images/ContactWF.jpg)
-![Smaller screen 1 wireframe](assets/images/smallerScreenWF1.jpg)
-![Smaller screen 2 wireframe](assets/images/smallerScreenWF2.jpg)
+![Home page wireframe](assets/images/homeWF.jpg)
+![Location page wireframe](assets/images/locationWF.jpg)
+![Join page wireframe](assets/images/joinWF.jpg)
+![Contact page wireframe](assets/images/contactWF.jpg)
+![Smaller screen 1 wireframe](assets/images/smaller-screenWFA.jpg)
+![Smaller screen 2 wireframe](assets/images/smaller-screenWFB.jpg)
 
 ---
 
@@ -112,18 +83,12 @@ Here are the original wireframes:
 
 ### Existing features
 
-- Sign up form for an email newsletter.
-- Quick links to store locations and phone numbers.
-- Pictures of flavours available.
-- Links to social media.
-- Responsive nav bar and image gallery.
-
-### Future features
-
-- Once the owner has begun to understand the online world I feel this business would benefit from more social media presence. This could come in short videos
-  about offers or getting involved within the community like sponsoring a sports team or donation to a worthwhile cause.
-- We have already spoke about the benefit of setting up an online delivery service to replace phoning the shops to order which will happen at the owners discretion once he feels the Dublin store can run fully without help.
-- With that could come a make your own style doughnuts with any combination of sprinkles and flavours which I am really excited about.
+![Sign up form for an email newsletter.](assets/images/screenshot-form.png)
+![Quick links to store locations and phone numbers.](assets/images/screenshot-location-link.png)
+![Pictures of flavours available.](assets/images/screenshot-flavoursA.png)
+![More flavours](assets/images/screenshot-flavoursB.png)
+![Links to social media.](assets/images/screenshot-social-links.png)
+![Responsive website in all screen sizes.]()
 
 ---
 
@@ -132,6 +97,7 @@ Here are the original wireframes:
 - For this website I have chosen to use HTML and CSS.
 - AI has been used for the pictures through Canva.
 - Font awesome was used for the icons.
+- Codeanywhere was used as my IDE.
 
 ---
 
@@ -229,8 +195,8 @@ To deploy this page to GitHub pages from its GitHub repository, the following st
 2. From the list of repositories on the screen select **Seanl80/NewProject.1**.
 3. From the menu items near the top of the page, select **Settings**.
 4. Scroll down to **GitHub Pages** section.
-5. Under **Source** click the drop down menu labelled **None** and select **Master Branch**.
-6. On selecting Master Branch the page is automatically refreshed, the site is now deployed.
+5. Under **Source** click the drop down menu labelled **None** and select **Main Branch**.
+6. On selecting Main Branch the page is automatically refreshed, the site is now deployed.
 7. Scroll back down to **GitHub Pages** section to retrieve the link to the deployed website.
 
 ### How to run this project locally
