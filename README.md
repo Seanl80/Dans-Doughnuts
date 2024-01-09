@@ -87,13 +87,14 @@ Sign up form for an email newsletter.
 ![Sign up form for an email newsletter.](assets/images/screenshot-form.png)
 Quick links to store locations and phone numbers.
 ![Quick links to store locations and phone numbers.](assets/images/screenshot-location-link.png)
-[Pictures of flavours available.
+Pictures of flavours available.
 ![Pictures of flavours available.](assets/images/screenshot-flavoursA.png)
 More flavours.
 ![More flavours](assets/images/screenshot-flavoursB.png)
 Links to social media.
 ![Links to social media.](assets/images/screenshot-social-links.png)
-![Responsive website in all screen sizes.]()
+Responsive website in all screen sizes.
+![Responsive website in all screen sizes.](assets/images/screenshot-responsive.png)
 
 ---
 
