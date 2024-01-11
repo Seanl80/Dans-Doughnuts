@@ -1,4 +1,4 @@
-## UX
+# UX
 
 ### Project goals
 
@@ -190,6 +190,7 @@ The first bugs I encountered was when I started to test my code. This is what th
    - I had put in `required` but as my form was not active and the button was wrapped in an `<a>` anchor tag it was going straight through.
    - The solution was the `<form action="">` which in hindsight should of been the
      way I did it in the first place.
+4. The contrast between text and background was highlighted on lighthouse report so I adjusted slightly to keep my design while allowing sufficient contrast.
 
 ## Deployment
 
