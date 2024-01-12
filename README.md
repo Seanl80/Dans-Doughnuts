@@ -187,7 +187,7 @@ The first bugs I encountered was when I started to test my code. This is what th
   
 2. My navigation links were wrong on the locations page.
    - When I replaced the contact.html page with the flavours.html page I forgot to change it. It was spotted through testing.
-   - 
+ 
 3. It was highlighted that I could submit the form without typing in any text.
    - I had put in `required` but as my form was not active and the button was wrapped in an `<a>` anchor tag it was going straight through.
    - The solution was the `<form action="">` which in hindsight should of been the
@@ -196,11 +196,11 @@ The first bugs I encountered was when I started to test my code. This is what th
 4. The contrast between text and background was highlighted on lighthouse report so I adjusted slightly to keep my design while allowing sufficient contrast.
 
 5. At smaller screen widths I wanted my footer to change to only social media links but I had real trouble aligning them from the right side to the center.
-   - ![footer not aligning centrally.](assets/images/footer-test.png)
+    ![footer not aligning centrally.](assets/images/footer-test.png)
 
    - This was overcome by adjusting it as a whole rather than both the `<ul>` and the `<li>` separately.
 
-   - ![footer amended.](assets/images/footer-amended.png)
+    ![footer amended.](assets/images/footer-amended.png)
 
 ## Deployment
 
